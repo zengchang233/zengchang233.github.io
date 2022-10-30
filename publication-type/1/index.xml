@@ -5,12 +5,29 @@
     <link>https://zengchang233.github.io/publication-type/1/</link>
       <atom:link href="https://zengchang233.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://zengchang233.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Deep Spectro-temporal Artifacts for Detecting Synthesized Speech</title>
+      <link>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Data Augmentation Using McAdams-Coefficient-Based Speaker Anonymization for Fake Audio Detection</title>
