@@ -122,7 +122,7 @@
       <guid>https://zengchang233.github.io/publication/taslp_jointasv/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
@@ -368,7 +368,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-625478139&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-943751628&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -378,7 +378,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-625478139&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-943751628&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
