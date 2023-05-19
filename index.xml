@@ -34,9 +34,9 @@
     
     <item>
       <title>Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network</title>
-      <link>https://zengchang233.github.io/publication/icassp2023_xiaoice2/</link>
+      <link>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</link>
       <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/icassp2023_xiaoice2/</guid>
+      <guid>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -394,7 +394,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-614895372&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-687135429&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -404,7 +404,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-614895372&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-687135429&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
