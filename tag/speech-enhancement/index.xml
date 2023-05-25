@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speech Enhancement | Chang ZENG</title>
+    <link>https://zengchang233.github.io/tag/speech-enhancement/</link>
+      <atom:link href="https://zengchang233.github.io/tag/speech-enhancement/index.xml" rel="self" type="application/rss+xml" />
+    <description>Speech Enhancement</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url>
+      <title>Speech Enhancement</title>
+      <link>https://zengchang233.github.io/tag/speech-enhancement/</link>
+    </image>
+    
+    <item>
+      <title>SSI-Net: A Multi-Stage Speech Signal Improvement System for ICASSP 2023 SSI Challenge</title>
+      <link>https://zengchang233.github.io/publication/icassp2023_ssinet/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://zengchang233.github.io/publication/icassp2023_ssinet/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
