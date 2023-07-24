@@ -58,7 +58,7 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zengchang233.github.io/publication/icassp2023_hifi_wavegan/</loc>
+    <loc>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -163,6 +163,12 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/tag/automatic-speech-recognition/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/publication/asru2023_asr/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/tag/speaker-recognition-/-antispoofing/</loc>
