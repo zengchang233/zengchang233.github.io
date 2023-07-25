@@ -5,7 +5,7 @@
     <link>https://zengchang233.github.io/tag/singing-voice-synthesis/</link>
       <atom:link href="https://zengchang233.github.io/tag/singing-voice-synthesis/index.xml" rel="self" type="application/rss+xml" />
     <description>Singing Voice Synthesis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url>
       <title>Singing Voice Synthesis</title>
@@ -13,26 +13,9 @@
     </image>
     
     <item>
-      <title>Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network</title>
-      <link>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</link>
-      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>HiFi-WaveGAN: Generative Adversarial Network with Auxiliary Spectrogram-Phase Loss for High-Fidelity Singing Voice Generation</title>
       <link>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</link>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</guid>
       <description>&lt;!-- 
 
@@ -47,10 +30,10 @@
     </item>
     
     <item>
-      <title>CrossSinger: A Cross-Lingual Multi-Singer High-Fidelity Singing Voice Synthesizer Trained on Monolingual Singers</title>
-      <link>https://zengchang233.github.io/publication/asru2023_cross_singer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/asru2023_cross_singer/</guid>
+      <title>Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network</title>
+      <link>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

@@ -15,30 +15,38 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication-type/1/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zengchang233.github.io/publication/interspeech2023_generalization/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <loc>https://zengchang233.github.io/publication-type/3/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication_types/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/tag/singing-voice-synthesis/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/tags/</loc>
-    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/publication/interspeech2023_generalization/</loc>
     <lastmod>2023-08-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -52,14 +60,6 @@
   </url><url>
     <loc>https://zengchang233.github.io/publication/icassp2023_ssinet/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zengchang233.github.io/publication-type/3/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</loc>
@@ -163,15 +163,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/admin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zengchang233.github.io/tag/automatic-speech-recognition/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zengchang233.github.io/publication/asru2023_asr/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zengchang233.github.io/publication/asru2023_cross_singer/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/tag/speaker-recognition-/-antispoofing/</loc>
