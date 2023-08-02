@@ -50,23 +50,6 @@
     </item>
     
     <item>
-      <title>CrossSinger: A Cross-Lingual Multi-Singer High-Fidelity Singing Voice Synthesizer Trained on Monolingual Singers</title>
-      <link>https://zengchang233.github.io/publication/asru2023_cross_singer/</link>
-      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/asru2023_cross_singer/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>HiFi-WaveGAN: Generative Adversarial Network with Auxiliary Spectrogram-Phase Loss for High-Fidelity Singing Voice Generation</title>
       <link>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
@@ -487,7 +470,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-698143257&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-982357614&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -497,7 +480,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-698143257&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-982357614&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
