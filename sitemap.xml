@@ -14,11 +14,19 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zengchang233.github.io/publication-type/1/</loc>
+    <loc>https://zengchang233.github.io/publication-type/3/</loc>
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zengchang233.github.io/publication-type/3/</loc>
+    <loc>https://zengchang233.github.io/tag/automatic-speech-recognition/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/publication/asru2023_asr/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/publication/asru2023_cross_singer/</loc>
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -42,12 +50,16 @@
     <lastmod>2023-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</loc>
-    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+    <loc>https://zengchang233.github.io/publication-type/1/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication/interspeech2023_generalization/</loc>
     <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zengchang233.github.io/publication/icassp2023_av_colearning/</loc>
