@@ -86,7 +86,7 @@
     <item>
       <title>Improving Generalization Ability of Countermeasures for New Mismatch Scenario by Combining Multiple Advanced Regularization Terms</title>
       <link>https://zengchang233.github.io/publication/interspeech2023_generalization/</link>
-      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://zengchang233.github.io/publication/interspeech2023_generalization/</guid>
       <description>&lt;!-- 
 
@@ -111,7 +111,7 @@
     <item>
       <title>Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network</title>
       <link>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</link>
-      <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</guid>
       <description>&lt;!-- 
 
@@ -487,7 +487,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-793251846&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-327819546&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -497,7 +497,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-793251846&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-327819546&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
