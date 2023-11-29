@@ -177,6 +177,9 @@
     <loc>https://zengchang233.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://zengchang233.github.io/research/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://zengchang233.github.io/tag/speaker-recognition-/-antispoofing/</loc>
     <changefreq>weekly</changefreq>
   </url>
