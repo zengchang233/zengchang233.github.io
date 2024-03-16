@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning | Chang ZENG</title>
-    <link>https://zengchang233.github.io/tag/deep-learning/</link>
-      <atom:link href="https://zengchang233.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Deep Learning</description>
+    <title>MM GenAI | Chang ZENG</title>
+    <link>https://zengchang233.github.io/tag/mm-genai/</link>
+      <atom:link href="https://zengchang233.github.io/tag/mm-genai/index.xml" rel="self" type="application/rss+xml" />
+    <description>MM GenAI</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url>
-      <title>Deep Learning</title>
-      <link>https://zengchang233.github.io/tag/deep-learning/</link>
+      <title>MM GenAI</title>
+      <link>https://zengchang233.github.io/tag/mm-genai/</link>
     </image>
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://zengchang233.github.io/project/genai/</guid>
       <description>&lt;p&gt;The research topics cover text-to-audio (TTA), singing voice synthesis (SVS), music generation, and more multi-modality generative task in the future.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Speaker Recognition / Antispoofing</title>
-      <link>https://zengchang233.github.io/project/speaker_verification/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/project/speaker_verification/</guid>
-      <description>&lt;p&gt;This project is related to my doctoral topic including speaker recognition, antispoofing, and robustness.&lt;/p&gt;
 </description>
     </item>
     
