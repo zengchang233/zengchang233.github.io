@@ -80,5 +80,14 @@
 </description>
     </item>
     
+    <item>
+      <title>Generative AI</title>
+      <link>https://zengchang233.github.io/project/genai/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://zengchang233.github.io/project/genai/</guid>
+      <description>&lt;p&gt;The research topics cover text-to-audio (TTA), singing voice synthesis (SVS), music generation, and more multi-modality generative task in the future.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
