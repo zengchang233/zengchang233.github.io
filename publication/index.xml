@@ -1,286 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Publications | Chang ZENG</title>
-    <link>https://zengchang233.github.io/publication/</link>
-      <atom:link href="https://zengchang233.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
-      <link>https://zengchang233.github.io/publication/</link>
-    </image>
-    
-    <item>
-      <title>HAM-TTS: Hierarchical Acoustic Modeling for Token-Based Zero-Shot Text-to-Speech with Model and Data Scaling</title>
-      <link>https://zengchang233.github.io/publication/acl2024_hamtts/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/acl2024_hamtts/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Joint Speaker Encoder and Neural Back-end Model for Fully End-to-End Automatic Speaker Verification with Multiple Enrollment Utterances</title>
-      <link>https://zengchang233.github.io/publication/taslp_jointasv/</link>
-      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/taslp_jointasv/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CrossSinger: A Cross-Lingual Multi-Singer High-Fidelity Singing Voice Synthesizer Trained on Monolingual Singers</title>
-      <link>https://zengchang233.github.io/publication/asru2023_cross_singer/</link>
-      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/asru2023_cross_singer/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HiFi-WaveGAN: Generative Adversarial Network with Auxiliary Spectrogram-Phase Loss for High-Fidelity Singing Voice Generation</title>
-      <link>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</link>
-      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Improving Generalization Ability of Countermeasures for New Mismatch Scenario by Combining Multiple Advanced Regularization Terms</title>
-      <link>https://zengchang233.github.io/publication/interspeech2023_generalization/</link>
-      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/interspeech2023_generalization/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network</title>
-      <link>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</link>
-      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Beyond Universal Transformer: block reusing with adaptor in Transformer for automatic speech recognition</title>
-      <link>https://zengchang233.github.io/publication/asru2023_asr/</link>
-      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/asru2023_asr/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cross-Modal Audio-Visual Co-Learning for Text-Independent Speaker Verification</title>
-      <link>https://zengchang233.github.io/publication/icassp2023_av_colearning/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/icassp2023_av_colearning/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SSI-Net: A Multi-Stage Speech Signal Improvement System for ICASSP 2023 SSI Challenge</title>
-      <link>https://zengchang233.github.io/publication/icassp2023_ssinet/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/icassp2023_ssinet/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Spectro-temporal Artifacts for Detecting Synthesized Speech</title>
-      <link>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</link>
-      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Augmentation Using McAdams-Coefficient-Based Speaker Anonymization for Fake Audio Detection</title>
-      <link>https://zengchang233.github.io/publication/interspeech2022_antispoofing/</link>
-      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/interspeech2022_antispoofing/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Spoofing-Aware Attention based ASV Back-end with Multiple Enrollment Utterances and a Sampling Strategy for the SASV Challenge 2022</title>
-      <link>https://zengchang233.github.io/publication/interspeech2022/</link>
-      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/interspeech2022/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Attention Back-end for Automatic Speaker Verification with Multiple Enrollment Utterances</title>
-      <link>https://zengchang233.github.io/publication/icassp2022/</link>
-      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/icassp2022/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DeepLip: A Benchmark for Deep Learning-Based Audio-Visual Lip Biometrics</title>
-      <link>https://zengchang233.github.io/publication/asru2021/</link>
-      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://zengchang233.github.io/publication/asru2021/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications | Chang ZENG</title><link>https://zengchang233.github.io/publication/</link><atom:link href="https://zengchang233.github.io/publication/index.xml" rel="self" type="application/rss+xml"/><description>Publications</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url><title>Publications</title><link>https://zengchang233.github.io/publication/</link></image><item><title>CrossSinger: A Cross-Lingual Multi-Singer High-Fidelity Singing Voice Synthesizer Trained on Monolingual Singers</title><link>https://zengchang233.github.io/publication/slt2024_instructsing/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/slt2024_instructsing/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>HAM-TTS: Hierarchical Acoustic Modeling for Token-Based Zero-Shot Text-to-Speech with Model and Data Scaling</title><link>https://zengchang233.github.io/publication/acl2024_hamtts/</link><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/acl2024_hamtts/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Joint Speaker Encoder and Neural Back-end Model for Fully End-to-End Automatic Speaker Verification with Multiple Enrollment Utterances</title><link>https://zengchang233.github.io/publication/taslp_jointasv/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/taslp_jointasv/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>CrossSinger: A Cross-Lingual Multi-Singer High-Fidelity Singing Voice Synthesizer Trained on Monolingual Singers</title><link>https://zengchang233.github.io/publication/asru2023_cross_singer/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/asru2023_cross_singer/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>HiFi-WaveGAN: Generative Adversarial Network with Auxiliary Spectrogram-Phase Loss for High-Fidelity Singing Voice Generation</title><link>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</link><pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/asru2023_hifi_wavegan/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Improving Generalization Ability of Countermeasures for New Mismatch Scenario by Combining Multiple Advanced Regularization Terms</title><link>https://zengchang233.github.io/publication/interspeech2023_generalization/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/interspeech2023_generalization/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network</title><link>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/interspeech2023_xiaoice2/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Beyond Universal Transformer: block reusing with adaptor in Transformer for automatic speech recognition</title><link>https://zengchang233.github.io/publication/asru2023_asr/</link><pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/asru2023_asr/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Cross-Modal Audio-Visual Co-Learning for Text-Independent Speaker Verification</title><link>https://zengchang233.github.io/publication/icassp2023_av_colearning/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/icassp2023_av_colearning/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>SSI-Net: A Multi-Stage Speech Signal Improvement System for ICASSP 2023 SSI Challenge</title><link>https://zengchang233.github.io/publication/icassp2023_ssinet/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/icassp2023_ssinet/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Deep Spectro-temporal Artifacts for Detecting Synthesized Speech</title><link>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/acmmm2022_ddam_workshop/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Data Augmentation Using McAdams-Coefficient-Based Speaker Anonymization for Fake Audio Detection</title><link>https://zengchang233.github.io/publication/interspeech2022_antispoofing/</link><pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/interspeech2022_antispoofing/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Spoofing-Aware Attention based ASV Back-end with Multiple Enrollment Utterances and a Sampling Strategy for the SASV Challenge 2022</title><link>https://zengchang233.github.io/publication/interspeech2022/</link><pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/interspeech2022/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Attention Back-end for Automatic Speaker Verification with Multiple Enrollment Utterances</title><link>https://zengchang233.github.io/publication/icassp2022/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/icassp2022/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>DeepLip: A Benchmark for Deep Learning-Based Audio-Visual Lip Biometrics</title><link>https://zengchang233.github.io/publication/asru2021/</link><pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/asru2021/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item></channel></rss>
