@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chang ZENG</title><link>https://zengchang233.github.io/</link><atom:link href="https://zengchang233.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Chang ZENG</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Mar 2026 03:32:25 +0000</lastBuildDate><image><url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url><title>Chang ZENG</title><link>https://zengchang233.github.io/</link></image><item><title>Speech Codec Probing from Semantic and Phonetic Perspectives</title><link>https://zengchang233.github.io/publication/arxiv2026_speech_codec_probing/</link><pubDate>Wed, 11 Mar 2026 03:32:25 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2026_speech_codec_probing/</guid><description/></item><item><title>A Semantically Consistent Dataset for Data-Efficient Query-Based Universal Sound Separation</title><link>https://zengchang233.github.io/publication/arxiv2026_semantically_consistent_dataset/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2026_semantically_consistent_dataset/</guid><description/></item><item><title>DrivingScene: A Multi-Task Online Feed-Forward 3D Gaussian Splatting Method for Dynamic Driving Scenes</title><link>https://zengchang233.github.io/publication/arxiv2025_drivingscene/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2025_drivingscene/</guid><description/></item><item><title>PAGS: Priority-Adaptive Gaussian Splatting for Dynamic Driving Scenes</title><link>https://zengchang233.github.io/publication/arxiv2025_pags/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2025_pags/</guid><description/></item><item><title>Towards Interactive Intelligence for Digital Humans</title><link>https://zengchang233.github.io/publication/arxiv2025_interactive_intelligence_digital_humans/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2025_interactive_intelligence_digital_humans/</guid><description/></item><item><title>Critical Information Only: A Content Privacy-Preserving Framework for Detecting Audio Deepfakes</title><link>https://zengchang233.github.io/publication/tdsc2025_critical_information_only/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/tdsc2025_critical_information_only/</guid><description/></item><item><title>SonicSim: A Customizable Simulation Platform for Speech Processing in Moving Sound Source Scenarios</title><link>https://zengchang233.github.io/publication/arxiv2024_sonicsim/</link><pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2024_sonicsim/</guid><description/></item><item><title>A Benchmark for Multi-Speaker Anonymization</title><link>https://zengchang233.github.io/publication/tifs2025_multispeaker_anonymization/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/tifs2025_multispeaker_anonymization/</guid><description/></item><item><title>InstructSing: High-Fidelity Singing Voice Generation via Instructing Yourself</title><link>https://zengchang233.github.io/publication/slt2024_instructsing/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/slt2024_instructsing/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chang ZENG</title><link>https://zengchang233.github.io/</link><atom:link href="https://zengchang233.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Chang ZENG</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Mar 2026 03:32:25 +0000</lastBuildDate><image><url>https://zengchang233.github.io/media/icon_hudc967fd05c8db002c2406ec36adacb20_394509_512x512_fill_lanczos_center_3.png</url><title>Chang ZENG</title><link>https://zengchang233.github.io/</link></image><item><title>Speech Codec Probing from Semantic and Phonetic Perspectives</title><link>https://zengchang233.github.io/publication/arxiv2026_speech_codec_probing/</link><pubDate>Wed, 11 Mar 2026 03:32:25 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2026_speech_codec_probing/</guid><description/></item><item><title>Adaptive Granularity Importance Sampling for Policy Optimization</title><link>https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/</link><pubDate>Wed, 11 Mar 2026 11:40:00 +0900</pubDate><guid>https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/</guid><description>&lt;p>&lt;a href="0311_morning_meeting.pdf">Slides (PDF)&lt;/a>&lt;/p>
+&lt;p>首先我们看一看标准 GRPO 的 optimization 部分是怎么计算的：对于每一个 sample，我们有它的 advantage，在 optimization 的过程中，我们通过 importance score 把 advantage 分配给每一个 token.&lt;/p>
+&lt;p>GRPO 中的 importance 计算方式是“相比之前的 policy，当前 policy 在生成一个 token 时候 logits 分布的差异”。Importance score 越高，说明正在更新的 policy 在生成这个 token 的时候最显著，也是着重需要更新的地方。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.001.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.001_hu519c03a27fb69e55e22acb0c71cd0587_188705_dad07af12f71fc5abaef5aceac83064e.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.001_hu519c03a27fb69e55e22acb0c71cd0587_188705_c24e84a0951efcd686e3dadbac928925.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.001_hu519c03a27fb69e55e22acb0c71cd0587_188705_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.001_hu519c03a27fb69e55e22acb0c71cd0587_188705_dad07af12f71fc5abaef5aceac83064e.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>但是 GRPO 的 optimization 中有一个理论上的问题：importance sampling 的理论要求是在 behavior distribution 上采多个样本求期望来纠正分布偏差。但在 GRPO 中，每个 token position 上只有一个样本，所以这个 token-level importance weight 无法起到分布校正的作用，反而引入了高方差噪声。这些噪声会随着 sequence 长度累积，并被 clipping 机制进一步放大，最终导致不可逆的 model collapse.&lt;/p>
+&lt;p>换句话说理论上除了第一个 token，剩下的 tokens 都不是独立同分布的。&lt;/p>
+&lt;p>这就是 Qwen 的 GSPO 的 motivation，他们的方法就是，虽然 tokens 不是独立同分布的，但是整个 sequence 理论上是独立同分布的，所以说如果我们算 importance score 的时候是针对一整个 sequence 来算的话，那么就可以解决这个问题。&lt;/p>
+&lt;p>GSPO 方法上其实很简单，对于一整个 sequence 我们只计算一个 importance score，之后所有的 token 都用这个 importance score。这个方法带来的好处是 token 之间的 gradient 被均匀加权。这从根本上消除了 GRPO 中 token-level 不等权重带来的不稳定性。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.002.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.002_hu519c03a27fb69e55e22acb0c71cd0587_152982_74647f7e20277d57b5ded8b780082403.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.002_hu519c03a27fb69e55e22acb0c71cd0587_152982_7a1ca1895b59ea1e56e9ed15698c1e68.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.002_hu519c03a27fb69e55e22acb0c71cd0587_152982_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.002_hu519c03a27fb69e55e22acb0c71cd0587_152982_74647f7e20277d57b5ded8b780082403.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>从 GSPO 开始，有一系列 token-level 和 sequence-level optimization 的讨论（related works）。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.003.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.003_hu519c03a27fb69e55e22acb0c71cd0587_171295_1d24eb0f35cffc125b0894a3af572798.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.003_hu519c03a27fb69e55e22acb0c71cd0587_171295_5be1fe2d05f84681562a91a6c819faee.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.003_hu519c03a27fb69e55e22acb0c71cd0587_171295_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.003_hu519c03a27fb69e55e22acb0c71cd0587_171295_1d24eb0f35cffc125b0894a3af572798.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>总结一下这些方法普遍遇到的问题：&lt;/p>
+&lt;ul>
+&lt;li>Token-level 的问题：理论上针对每一个 token 计算 importance score 时，不满足独立同分布的条件，因此逐 token 的 importance score 无法进行严格有效的分布校正。但它提供了细粒度控制。&lt;/li>
+&lt;li>Sequence level 的问题：一是这样计算出来的 importance score 对长度无感，当 reward 和 output sequence 的长度有显性或隐性的关系时会产生问题；二是丢失了 credit assign 的信息，通过 sequence 的方法让模型无法专注于提升重点要优化的部分，会让优化变得很低效率。&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.004.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.004_hu519c03a27fb69e55e22acb0c71cd0587_183748_4dd5f2a23aee6310a33ecf80d2fbf51a.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.004_hu519c03a27fb69e55e22acb0c71cd0587_183748_3307439d2f92588b2a4cfd833c250c08.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.004_hu519c03a27fb69e55e22acb0c71cd0587_183748_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.004_hu519c03a27fb69e55e22acb0c71cd0587_183748_4dd5f2a23aee6310a33ecf80d2fbf51a.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>所以说后续有了介于 token-level 和 sequence-level 中间的方法：按照段落分割和按照 entropy 分割。这些方法都是针对 text 数据的，对于 speech 数据我们有着不同的假设：&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.005.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.005_hu519c03a27fb69e55e22acb0c71cd0587_109672_e332f53b9b8f8f5697f493bc87e5f1ed.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.005_hu519c03a27fb69e55e22acb0c71cd0587_109672_476f169ac230a17a5b46ae73d0dd6095.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.005_hu519c03a27fb69e55e22acb0c71cd0587_109672_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.005_hu519c03a27fb69e55e22acb0c71cd0587_109672_e332f53b9b8f8f5697f493bc87e5f1ed.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ol>
+&lt;li>我们认为文本之间的 token 依赖较弱：
+&lt;ol>
+&lt;li>&lt;strong>熵的变化高度结构化。&lt;/strong> 关于 LLM 推理过程中 token 熵模式的研究（Wang et al., 2025；Deng et al., 2025）表明，超过 50% 的文本 token 具有极低熵（H_t &amp;lt; 0.01），而只有约 20% 的 token（“forking tokens”，分叉 token）具有高熵。这种双峰分布意味着：大多数文本 token 在给定前缀时都高度可预测，其重要性比 w_t = \pi_\theta(y_t|\cdot) / \pi_{\theta_\text{old}}(y_t|\cdot) 会非常接近 1，因此对梯度信号贡献很小。只有少数位于语义决策点上的高熵 token（例如 “however”“since” 或逻辑分支位置）承载了大部分真正有意义的策略更新。&lt;/li>
+&lt;li>&lt;strong>BPE 分词带来部分独立性。&lt;/strong> Byte-Pair Encoding 将文本切分为子词单元，而词边界本身就是自然的独立点。新词起始位置处的条件分布 \pi(\cdot \mid x, y_{&amp;lt;t})，与词中间位置的条件分布显著不同，因为在词中间，已有前缀会强约束后续内容。这就形成了高依赖与低依赖交替出现的自然“片段”。&lt;/li>
+&lt;li>&lt;strong>语义结构提供了分段线索。&lt;/strong> 推理轨迹通常具有显式步骤边界（换行、“Step 1:”、“Therefore,” 等），代码具有语句/代码块边界，自然语言具有句子边界。这些都是人类自然使用、且具有语义意义的分段点。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>同时我们认为语音 token 之间的依赖较强：
+&lt;ol>
+&lt;li>&lt;strong>物理连续性约束。&lt;/strong> 语音由连续的物理系统（声道）产生。基频（F0）、共振峰轨迹和振幅包络都是平滑变化的。当语音以 50 Hz 的频率被 token 化（例如 EnCodec）时，相邻 token 对应大约 20ms 的音频窗，它们在物理上必然彼此相似。token 之间的变化主要受底层连续信号的平滑先验所支配。&lt;/li>
+&lt;li>&lt;strong>韵律结构跨越大量 token。&lt;/strong> 一个音节在 50 Hz 下通常占据 5-15 个 token；一个韵律短语则可能跨越 50-200 个 token。音高轮廓、语速和重音本质上都是超音段特征，它们是&lt;strong>一组&lt;/strong> token 的属性，而不是单个 token 的属性。单个语音 token 的重要性无法脱离其韵律上下文而被有意义地分离。&lt;/li>
+&lt;li>&lt;strong>Codec 架构强制局部依赖。&lt;/strong> EnCodec 和 SoundStream 这类神经 codec 使用卷积编码器，其感受野通常覆盖约 320ms，这意味着每个 token 的表示本身就已经包含了约 16 个相邻帧的信息。残差向量量化（RVQ）进一步在时间维度上缠结了信息。ACM Multimedia 2025 的 compressed-to-fine language modeling 论文明确表明，语音 token 预测主要依赖局部上下文，即所谓的“短程依赖”特性。&lt;/li>
+&lt;li>&lt;strong>互信息分析证实了缠结性。&lt;/strong> 对 SpeechTokenizer 及相关 codec 的研究显示，音高、说话人身份和语言内容在 RVQ 各层之间是缠结的。第一层 RVQ（语义层）捕获语音内容；后续各层捕获韵律和音色。但在每一层内部，相邻 token 仍然因底层信号的连续性而共享大量互信息。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.006.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.006_hu519c03a27fb69e55e22acb0c71cd0587_297214_40265636ca4c43719936fa238beb930b.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.006_hu519c03a27fb69e55e22acb0c71cd0587_297214_61088c812d23abee63fca15fc8ba848f.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.006_hu519c03a27fb69e55e22acb0c71cd0587_297214_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.006_hu519c03a27fb69e55e22acb0c71cd0587_297214_40265636ca4c43719936fa238beb930b.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>总之，我们的目标是按 token 的&lt;strong>时间邻接关系和领域特定依赖结构&lt;/strong>进行分组。同组 token 是&lt;strong>连续的&lt;/strong>。其分组反映的是&lt;strong>信号的物理/语义结构&lt;/strong>，而不是模型状态。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="0311 morning meeting.007.jpeg" srcset="
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.007_hu519c03a27fb69e55e22acb0c71cd0587_117256_edf62dbcf9999d7c44f8d0e8d49088c6.webp 400w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.007_hu519c03a27fb69e55e22acb0c71cd0587_117256_160e35a12b36d256b4ab548614abd2e1.webp 760w,
+/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.007_hu519c03a27fb69e55e22acb0c71cd0587_117256_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://zengchang233.github.io/post/adaptive-granularity-importance-sampling-policy-optimization/0311_morning_meeting.007_hu519c03a27fb69e55e22acb0c71cd0587_117256_edf62dbcf9999d7c44f8d0e8d49088c6.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>目前尝试的基本办法：&lt;/p>
+&lt;h3 id="maspo-fixed-固定窗口分段">MASPO-Fixed: 固定窗口分段&lt;/h3>
+&lt;p>&lt;strong>实现&lt;/strong>：把生成的 completion 按固定窗口大小 W 切分成 ⌈T/W⌉ 个不重叠的 segment。每个 segment 内的所有 token 共享同一个 IS ratio。&lt;/p>
+&lt;p>&lt;strong>原理&lt;/strong>：语音 codec token（XCodec2 @ 50Hz）天然存在多层级的物理时间尺度。W=5 对应约 100ms（一个音素的典型时长），W=15 对应约 300ms（一个音节），W=50 对应约 1s（一个韵律短语）。通过选择不同的 W，可以让 IS 的粒度 align 到不同的声学单元。&lt;/p>
+&lt;p>&lt;strong>理论支撑&lt;/strong>：&lt;/p>
+&lt;p>核心论点是 &lt;strong>segment 内的 token 高度相关，不是独立样本&lt;/strong>。IS 理论要求被校正的样本是从 proposal 分布独立采出的，但语音 codec token 在一个音素内部几乎是确定性的，formant trajectory 是连续的，模型 logprob 极高（entropy 接近 0）。对这些高度相关的 token 做 token-level IS 不仅理论上无效，还会引入不必要的方差。Fixed-window 是最简单的去相关策略：假设 W 个 token 内部相关性极高，segment 之间相对独立。&lt;/p>
+&lt;p>&lt;strong>优势&lt;/strong>：实现极简（一行 &lt;code>torch.arange(T) // W&lt;/code>），计算零开销，超参只有一个（W），而且 W=1 退化为 GRPO、W=T 退化为 GSPO，方便做消融实验扫描整个 granularity spectrum。&lt;/p>
+&lt;p>&lt;strong>局限&lt;/strong>：固定窗口无法自适应实际的声学边界。一个音素可能跨 4 个 token 也可能跨 8 个，fixed window 会在音素中间切断或者把两个不同音素混在一起。&lt;/p>
+&lt;h3 id="maspo-logprob-基于-log-probability-跌落的自适应分段">MASPO-LogProb: 基于 log-probability 跌落的自适应分段&lt;/h3>
+&lt;p>&lt;strong>原理&lt;/strong>：这个方法利用了一个物理事实，即 &lt;strong>old policy 的 logprob 反映了 token 的可预测性&lt;/strong>。在一个音素内部，后续 token 基本由前面的 formant trajectory 决定，logprob 高且平稳；到了音素/音节边界，模型需要切换到一个新的声学单元，不确定性骤增，logprob 出现显著下降。所以 logprob drop 是一个天然的&lt;strong>声学边界检测器&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>理论支撑&lt;/strong>：&lt;/p>
+&lt;p>这个方法和 ESPO（Entropy-Sorted Policy Optimization）有相似的 motivation 但方向不同。ESPO 观察到 token 的 entropy 决定了它对 RL 学习的贡献，高 entropy token 是“forking point”，低 entropy token 几乎不影响 reward。MASPO-LogProb 的逻辑是互补的：不是按 entropy 值分组（ESPO 做的，非连续），而是用 entropy/logprob 的&lt;strong>时间变化&lt;/strong>来找&lt;strong>连续&lt;/strong>的声学边界。在语音里，连续性是本质性的，相邻 token 表示的是同一段物理声波，必须保持时间连续的 segment。&lt;/p>
+&lt;p>另一个理论优势是 &lt;strong>zero extra computation&lt;/strong>，old policy 的 logprob 在 rollout 阶段已经计算好了（GRPO 本来就需要 πθold 的 logprob 来算 IS ratio），所以 boundary detection 不需要任何额外的 forward pass。&lt;/p>
+&lt;p>&lt;strong>优势&lt;/strong>：自适应、数据驱动的分段，能自动 align 到实际的声学边界；per-sample adaptive（用每个 sample 自己的 μ/σ），对不同说话风格和语速鲁棒。&lt;/p>
+&lt;p>&lt;strong>局限&lt;/strong>：threshold τ 的选择仍然是超参。τ 太大，段太粗（趋近 GSPO）；τ 太小，段太细（趋近 GRPO）。另外 logprob drop 作为声学边界的 proxy 不是 100% 准确，有些边界模型预测得很好（常见音素转换），有些非边界位置模型可能突然困惑（罕见发音）。&lt;/p>
+&lt;h3 id="maspo-tokenval-基于-codec-token-id-跳变的分段">MASPO-TokenVal: 基于 codec token ID 跳变的分段&lt;/h3>
+&lt;p>&lt;strong>原理&lt;/strong>：这个方法利用了 VQ codebook 的几何结构。XCodec2 的 codebook 通过 VQ 训练学到的 embedding 空间中，&lt;strong>声学相似的信号倾向于映射到相近的 codebook index&lt;/strong>（这是 VQ-VAE 训练的副产品，K-means 风格的聚类使得空间局部性被部分保留）。因此：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>同一个音素内部&lt;/strong>：声学特征（F0, formant, amplitude）变化平缓，连续帧映射到相近的 codebook entry，token ID 差值小。&lt;/li>
+&lt;li>&lt;strong>声学转换点&lt;/strong>：新音素 onset、voicing 切换、pitch reset 等位置，声学特征突变，映射到 codebook 中较远的 entry，token ID 出现大幅跳变。&lt;/li>
+&lt;/ul>
+&lt;p>所以 &lt;code>|id_t - id_{t-1}|&lt;/code> 超过阈值可以作为声学边界的粗略 proxy。&lt;/p>
+&lt;p>&lt;strong>理论支撑&lt;/strong>：&lt;/p>
+&lt;p>这个方法的合理性来自两个层面。第一，信息论层面：如果 codebook 的排列完全保留了声学距离（即 codebook index 的差和声学特征的差正相关），那么 token ID jump 就是声学距离的精确 proxy。实际上 VQ 训练不保证完美的 index 局部性，但实证上这种相关性通常存在，特别是对于 single-codebook 的 codec（XCodec2 就是）。第二，实践层面：这种方法&lt;strong>完全不依赖模型的 logprob&lt;/strong>，只看 token 序列本身。这意味着它捕捉的是&lt;strong>数据层面&lt;/strong>的声学结构，而不是&lt;strong>模型层面&lt;/strong>的不确定性，和 LogProb 方法形成互补。&lt;/p>
+&lt;p>&lt;strong>优势&lt;/strong>：计算极其轻量（一次减法加比较），不依赖任何模型输出（纯数据驱动），conceptually 最直觉。&lt;/p>
+&lt;p>&lt;strong>局限&lt;/strong>：最大的问题是 &lt;strong>VQ codebook 的 index 排列不保证声学连续性&lt;/strong>。标准的 VQ-VAE 训练（包括 XCodec2）用 K-means 或 EMA 更新 codebook，codebook entry 的 index 分配本质上是随机的，两个相邻 index 对应的声学特征可能完全不同。所以 token ID 差值作为声学距离的 proxy &lt;strong>理论上不可靠&lt;/strong>，需要在实际数据上做 calibration。如果 codebook 没有好的 index locality，这个方法会退化为近似随机分段。&lt;/p></description></item><item><title>A Semantically Consistent Dataset for Data-Efficient Query-Based Universal Sound Separation</title><link>https://zengchang233.github.io/publication/arxiv2026_semantically_consistent_dataset/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2026_semantically_consistent_dataset/</guid><description/></item><item><title>DrivingScene: A Multi-Task Online Feed-Forward 3D Gaussian Splatting Method for Dynamic Driving Scenes</title><link>https://zengchang233.github.io/publication/arxiv2025_drivingscene/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2025_drivingscene/</guid><description/></item><item><title>PAGS: Priority-Adaptive Gaussian Splatting for Dynamic Driving Scenes</title><link>https://zengchang233.github.io/publication/arxiv2025_pags/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2025_pags/</guid><description/></item><item><title>Towards Interactive Intelligence for Digital Humans</title><link>https://zengchang233.github.io/publication/arxiv2025_interactive_intelligence_digital_humans/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2025_interactive_intelligence_digital_humans/</guid><description/></item><item><title>Critical Information Only: A Content Privacy-Preserving Framework for Detecting Audio Deepfakes</title><link>https://zengchang233.github.io/publication/tdsc2025_critical_information_only/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/tdsc2025_critical_information_only/</guid><description/></item><item><title>SonicSim: A Customizable Simulation Platform for Speech Processing in Moving Sound Source Scenarios</title><link>https://zengchang233.github.io/publication/arxiv2024_sonicsim/</link><pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/arxiv2024_sonicsim/</guid><description/></item><item><title>A Benchmark for Multi-Speaker Anonymization</title><link>https://zengchang233.github.io/publication/tifs2025_multispeaker_anonymization/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/tifs2025_multispeaker_anonymization/</guid><description/></item><item><title>InstructSing: High-Fidelity Singing Voice Generation via Instructing Yourself</title><link>https://zengchang233.github.io/publication/slt2024_instructsing/</link><pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate><guid>https://zengchang233.github.io/publication/slt2024_instructsing/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
