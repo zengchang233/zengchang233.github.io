@@ -80,8 +80,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;ol>
 &lt;li>我们认为文本之间的 token 依赖较弱：
 &lt;ol>
-&lt;li>&lt;strong>熵的变化高度结构化。&lt;/strong> 关于 LLM 推理过程中 token 熵模式的研究（Wang et al., 2025；Deng et al., 2025）表明，超过 50% 的文本 token 具有极低熵（H_t &amp;lt; 0.01），而只有约 20% 的 token（“forking tokens”，分叉 token）具有高熵。这种双峰分布意味着：大多数文本 token 在给定前缀时都高度可预测，其重要性比 w_t = \pi_\theta(y_t|\cdot) / \pi_{\theta_\text{old}}(y_t|\cdot) 会非常接近 1，因此对梯度信号贡献很小。只有少数位于语义决策点上的高熵 token（例如 “however”“since” 或逻辑分支位置）承载了大部分真正有意义的策略更新。&lt;/li>
-&lt;li>&lt;strong>BPE 分词带来部分独立性。&lt;/strong> Byte-Pair Encoding 将文本切分为子词单元，而词边界本身就是自然的独立点。新词起始位置处的条件分布 \pi(\cdot \mid x, y_{&amp;lt;t})，与词中间位置的条件分布显著不同，因为在词中间，已有前缀会强约束后续内容。这就形成了高依赖与低依赖交替出现的自然“片段”。&lt;/li>
+&lt;li>&lt;strong>熵的变化高度结构化。&lt;/strong> 关于 LLM 推理过程中 token 熵模式的研究（Wang et al., 2025；Deng et al., 2025）表明，超过 50% 的文本 token 具有极低熵（$H_t &amp;lt; 0.01$），而只有约 20% 的 token（“forking tokens”，分叉 token）具有高熵。这种双峰分布意味着：大多数文本 token 在给定前缀时都高度可预测，其重要性比 $w_t = \pi_\theta(y_t \mid \cdot) / \pi_{\theta_{\text{old}}}(y_t \mid \cdot)$ 会非常接近 1，因此对梯度信号贡献很小。只有少数位于语义决策点上的高熵 token（例如 “however”“since” 或逻辑分支位置）承载了大部分真正有意义的策略更新。&lt;/li>
+&lt;li>&lt;strong>BPE 分词带来部分独立性。&lt;/strong> Byte-Pair Encoding 将文本切分为子词单元，而词边界本身就是自然的独立点。新词起始位置处的条件分布 $\pi(\cdot \mid x, y_{&amp;lt;t})$，与词中间位置的条件分布显著不同，因为在词中间，已有前缀会强约束后续内容。这就形成了高依赖与低依赖交替出现的自然“片段”。&lt;/li>
 &lt;li>&lt;strong>语义结构提供了分段线索。&lt;/strong> 推理轨迹通常具有显式步骤边界（换行、“Step 1:”、“Therefore,” 等），代码具有语句/代码块边界，自然语言具有句子边界。这些都是人类自然使用、且具有语义意义的分段点。&lt;/li>
 &lt;/ol>
 &lt;/li>
@@ -123,26 +123,26 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>目前尝试的基本办法：&lt;/p>
 &lt;h3 id="maspo-fixed-固定窗口分段">MASPO-Fixed: 固定窗口分段&lt;/h3>
-&lt;p>&lt;strong>实现&lt;/strong>：把生成的 completion 按固定窗口大小 W 切分成 ⌈T/W⌉ 个不重叠的 segment。每个 segment 内的所有 token 共享同一个 IS ratio。&lt;/p>
-&lt;p>&lt;strong>原理&lt;/strong>：语音 codec token（XCodec2 @ 50Hz）天然存在多层级的物理时间尺度。W=5 对应约 100ms（一个音素的典型时长），W=15 对应约 300ms（一个音节），W=50 对应约 1s（一个韵律短语）。通过选择不同的 W，可以让 IS 的粒度 align 到不同的声学单元。&lt;/p>
+&lt;p>&lt;strong>实现&lt;/strong>：把生成的 completion 按固定窗口大小 $W$ 切分成 $\lceil T / W \rceil$ 个不重叠的 segment。每个 segment 内的所有 token 共享同一个 IS ratio。&lt;/p>
+&lt;p>&lt;strong>原理&lt;/strong>：语音 codec token（XCodec2 @ 50Hz）天然存在多层级的物理时间尺度。$W = 5$ 对应约 100ms（一个音素的典型时长），$W = 15$ 对应约 300ms（一个音节），$W = 50$ 对应约 1s（一个韵律短语）。通过选择不同的 $W$，可以让 IS 的粒度 align 到不同的声学单元。&lt;/p>
 &lt;p>&lt;strong>理论支撑&lt;/strong>：&lt;/p>
 &lt;p>核心论点是 &lt;strong>segment 内的 token 高度相关，不是独立样本&lt;/strong>。IS 理论要求被校正的样本是从 proposal 分布独立采出的，但语音 codec token 在一个音素内部几乎是确定性的，formant trajectory 是连续的，模型 logprob 极高（entropy 接近 0）。对这些高度相关的 token 做 token-level IS 不仅理论上无效，还会引入不必要的方差。Fixed-window 是最简单的去相关策略：假设 W 个 token 内部相关性极高，segment 之间相对独立。&lt;/p>
-&lt;p>&lt;strong>优势&lt;/strong>：实现极简（一行 &lt;code>torch.arange(T) // W&lt;/code>），计算零开销，超参只有一个（W），而且 W=1 退化为 GRPO、W=T 退化为 GSPO，方便做消融实验扫描整个 granularity spectrum。&lt;/p>
+&lt;p>&lt;strong>优势&lt;/strong>：实现极简（一行 &lt;code>torch.arange(T) // W&lt;/code>），计算零开销，超参只有一个（$W$），而且 $W = 1$ 退化为 GRPO、$W = T$ 退化为 GSPO，方便做消融实验扫描整个 granularity spectrum。&lt;/p>
 &lt;p>&lt;strong>局限&lt;/strong>：固定窗口无法自适应实际的声学边界。一个音素可能跨 4 个 token 也可能跨 8 个，fixed window 会在音素中间切断或者把两个不同音素混在一起。&lt;/p>
 &lt;h3 id="maspo-logprob-基于-log-probability-跌落的自适应分段">MASPO-LogProb: 基于 log-probability 跌落的自适应分段&lt;/h3>
 &lt;p>&lt;strong>原理&lt;/strong>：这个方法利用了一个物理事实，即 &lt;strong>old policy 的 logprob 反映了 token 的可预测性&lt;/strong>。在一个音素内部，后续 token 基本由前面的 formant trajectory 决定，logprob 高且平稳；到了音素/音节边界，模型需要切换到一个新的声学单元，不确定性骤增，logprob 出现显著下降。所以 logprob drop 是一个天然的&lt;strong>声学边界检测器&lt;/strong>。&lt;/p>
 &lt;p>&lt;strong>理论支撑&lt;/strong>：&lt;/p>
 &lt;p>这个方法和 ESPO（Entropy-Sorted Policy Optimization）有相似的 motivation 但方向不同。ESPO 观察到 token 的 entropy 决定了它对 RL 学习的贡献，高 entropy token 是“forking point”，低 entropy token 几乎不影响 reward。MASPO-LogProb 的逻辑是互补的：不是按 entropy 值分组（ESPO 做的，非连续），而是用 entropy/logprob 的&lt;strong>时间变化&lt;/strong>来找&lt;strong>连续&lt;/strong>的声学边界。在语音里，连续性是本质性的，相邻 token 表示的是同一段物理声波，必须保持时间连续的 segment。&lt;/p>
-&lt;p>另一个理论优势是 &lt;strong>zero extra computation&lt;/strong>，old policy 的 logprob 在 rollout 阶段已经计算好了（GRPO 本来就需要 πθold 的 logprob 来算 IS ratio），所以 boundary detection 不需要任何额外的 forward pass。&lt;/p>
-&lt;p>&lt;strong>优势&lt;/strong>：自适应、数据驱动的分段，能自动 align 到实际的声学边界；per-sample adaptive（用每个 sample 自己的 μ/σ），对不同说话风格和语速鲁棒。&lt;/p>
-&lt;p>&lt;strong>局限&lt;/strong>：threshold τ 的选择仍然是超参。τ 太大，段太粗（趋近 GSPO）；τ 太小，段太细（趋近 GRPO）。另外 logprob drop 作为声学边界的 proxy 不是 100% 准确，有些边界模型预测得很好（常见音素转换），有些非边界位置模型可能突然困惑（罕见发音）。&lt;/p>
+&lt;p>另一个理论优势是 &lt;strong>zero extra computation&lt;/strong>，old policy 的 logprob 在 rollout 阶段已经计算好了（GRPO 本来就需要 $\pi_{\theta_{\text{old}}}$ 的 logprob 来算 IS ratio），所以 boundary detection 不需要任何额外的 forward pass。&lt;/p>
+&lt;p>&lt;strong>优势&lt;/strong>：自适应、数据驱动的分段，能自动 align 到实际的声学边界；per-sample adaptive（用每个 sample 自己的 $\mu/\sigma$），对不同说话风格和语速鲁棒。&lt;/p>
+&lt;p>&lt;strong>局限&lt;/strong>：threshold $\tau$ 的选择仍然是超参。$\tau$ 太大，段太粗（趋近 GSPO）；$\tau$ 太小，段太细（趋近 GRPO）。另外 logprob drop 作为声学边界的 proxy 不是 100% 准确，有些边界模型预测得很好（常见音素转换），有些非边界位置模型可能突然困惑（罕见发音）。&lt;/p>
 &lt;h3 id="maspo-tokenval-基于-codec-token-id-跳变的分段">MASPO-TokenVal: 基于 codec token ID 跳变的分段&lt;/h3>
 &lt;p>&lt;strong>原理&lt;/strong>：这个方法利用了 VQ codebook 的几何结构。XCodec2 的 codebook 通过 VQ 训练学到的 embedding 空间中，&lt;strong>声学相似的信号倾向于映射到相近的 codebook index&lt;/strong>（这是 VQ-VAE 训练的副产品，K-means 风格的聚类使得空间局部性被部分保留）。因此：&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>同一个音素内部&lt;/strong>：声学特征（F0, formant, amplitude）变化平缓，连续帧映射到相近的 codebook entry，token ID 差值小。&lt;/li>
 &lt;li>&lt;strong>声学转换点&lt;/strong>：新音素 onset、voicing 切换、pitch reset 等位置，声学特征突变，映射到 codebook 中较远的 entry，token ID 出现大幅跳变。&lt;/li>
 &lt;/ul>
-&lt;p>所以 &lt;code>|id_t - id_{t-1}|&lt;/code> 超过阈值可以作为声学边界的粗略 proxy。&lt;/p>
+&lt;p>所以 $|id_t - id_{t-1}|$ 超过阈值可以作为声学边界的粗略 proxy。&lt;/p>
 &lt;p>&lt;strong>理论支撑&lt;/strong>：&lt;/p>
 &lt;p>这个方法的合理性来自两个层面。第一，信息论层面：如果 codebook 的排列完全保留了声学距离（即 codebook index 的差和声学特征的差正相关），那么 token ID jump 就是声学距离的精确 proxy。实际上 VQ 训练不保证完美的 index 局部性，但实证上这种相关性通常存在，特别是对于 single-codebook 的 codec（XCodec2 就是）。第二，实践层面：这种方法&lt;strong>完全不依赖模型的 logprob&lt;/strong>，只看 token 序列本身。这意味着它捕捉的是&lt;strong>数据层面&lt;/strong>的声学结构，而不是&lt;strong>模型层面&lt;/strong>的不确定性，和 LogProb 方法形成互补。&lt;/p>
 &lt;p>&lt;strong>优势&lt;/strong>：计算极其轻量（一次减法加比较），不依赖任何模型输出（纯数据驱动），conceptually 最直觉。&lt;/p>
